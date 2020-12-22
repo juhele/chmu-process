@@ -57,7 +57,7 @@ to remove the  ".utf8" from the file names. Not sure if this is necessary for th
 
 # Running processing script
 
-2) to process downloaded data:
+to process downloaded data:
 
 mean air temperature
 ```
@@ -79,3 +79,4 @@ preciptitation
 Rscript unzip_process_4_SRA.R
 ```
 
+It might be probably possible to merge these scripts to process all the parameters at one time but I have no experience with R-project so I just used them one by one.
