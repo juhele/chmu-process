@@ -8,19 +8,23 @@ so you will need to modify the scripst in order to fit your setup.
 Running the scripts is easy - just run terminal from the folder and put there command for aproppriate script to process downloaded data:
 
 mean air temperature
-
+```
 Rscript unzip_process_1_airTmean.R
+```
 
 minimum air temperature
-
+```
 Rscript unzip_process_2_airTmin.R
+```
 
 maximum air temperature
-
+```
 Rscript unzip_process_3_airTmax.R
+```
 
 preciptitation
-
+```
 Rscript unzip_process_4_SRA.R
+```
 
 Remark: this does not solve the encoding problem - the downloaded files are in CP1250 but there is no encoding explicitly defined in the scripts so default system is used and linux expects UTF-8 - so the processing fails.
