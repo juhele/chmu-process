@@ -41,16 +41,18 @@ in a file called "encoding.sh", placed in the folder with CSV files and running 
 ```
 sh encoding.sh
 ```
-this script creates new CSV files in UTF-8 encoding:
+this script creates new CSV files in UTF-8 encoding so you will have the files twice like this:
 
 ```
 B1BLAT01_SRA_N.csv
 B1BLAT01_SRA_N.utf8.csv
 ```
-so
+so just place the files without ".utf8" in other folder and then open terminal and run:
 ```
 rename 's/.utf8//' *.csv
 ```
+to remove the  ".utf8" from the file names. Not sure if this is necessary for the processing scrip but I wanted to keep the same names to be sure.
+
 
 # Running processing script
 
