@@ -1,7 +1,7 @@
 # Intro
 
 These are modified R-project processing scripts and downloading script. Originals made by Matěj Man, modified by me.
-Requires R-project packages to be installed - in my case I used "r-cran" from default Ubuntu Focal repositories - all the default installed with r-cran plus some additional mentioned in the scripts like "r-cran-purr" and "r-cran-mapproj" as I remember (otherwise you get error message about that particular missing library).
+Requires R-project packages to be installed - in my case I used "r-cran" from default Ubuntu Focal repositories - all the default installed with r-cran plus some additional required by the scripts like "r-cran-purr", "r-cran-spatial" and "r-cran-mapproj" as I remember (otherwise you get error message about that particular missing library).
 
 In my case the scripts etc. were located in 
 
