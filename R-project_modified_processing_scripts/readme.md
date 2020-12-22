@@ -12,7 +12,6 @@ so you will need to modify the scripst in order to fit your setup.
 # Running download script
 
 Running the scripts is easy - just run terminal from the folder and put there command for aproppriate script.
-1) to download the data:
 
 Downloading script:
 ```
