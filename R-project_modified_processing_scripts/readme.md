@@ -80,3 +80,54 @@ Rscript unzip_process_4_SRA.R
 ```
 
 It might be probably possible to merge these scripts to process all the parameters at one time but I have no experience with R-project so I just used them one by one.
+
+# Converting the resulting .RData files in CSV
+
+Despite having all the scripts and data in: 
+
+/media/juhele/data_2TB/_CRAN/ 
+
+the R-Project working folder seems to be /home by default. So easiest way was to copy the .RData files in my Home folder and then convert them:
+If you did not make any changes in the scripts regarding parameter names (changing path does not matter) then you simply open terminal from your home folder and use this:
+
+mean air temperature
+```
+R
+> load("airTmean_merged.RData")
+> ls()
+[1] "airTmean"
+> write.csv(airTmin,"airTmin.csv") 
+q()
+```
+
+minimum air temperature
+```
+R
+> load("airTmin_merged.RData")
+> ls()
+[1] "airTmin"
+> write.csv(airTmin,"airTmin.csv") 
+q()
+```
+
+maximum air temperature
+```
+R
+> load("airTmax_merged.RData")
+> ls()
+[1] "airTmax"
+> write.csv(airTmax,"airTmax.csv") 
+q()
+```
+
+precipitation
+```
+R
+> load("precip_merged.RData")
+> ls()
+[1] "precip"
+> write.csv(precip,"precip.csv") 
+q()
+```
+  
+
