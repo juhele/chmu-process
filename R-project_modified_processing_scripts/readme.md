@@ -41,6 +41,13 @@ in a file called "encoding.sh", placed in the folder with CSV files and running 
 ```
 sh encoding.sh
 ```
+this script creates new CSV files in UTF-8 encoding:
+
+```
+B1BLAT01_SRA_N.csv
+B1BLAT01_SRA_N.utf8.csv
+```
+
 
 
 # Running processing script
