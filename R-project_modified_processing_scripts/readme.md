@@ -52,7 +52,7 @@ so just place the files without ".utf8" in other folder and then open terminal a
 ```
 rename 's/.utf8//' *.csv
 ```
-to remove the  ".utf8" from the file names. Not sure if this is necessary for the processing scrip but I wanted to keep the same names to be sure.
+to remove the  ".utf8" from the file names. Not sure if this is necessary for the processing script but I wanted to keep the same names to be sure.
 
 
 # Running processing script
