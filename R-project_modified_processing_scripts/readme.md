@@ -47,8 +47,10 @@ this script creates new CSV files in UTF-8 encoding:
 B1BLAT01_SRA_N.csv
 B1BLAT01_SRA_N.utf8.csv
 ```
-
-
+so
+```
+rename 's/.utf8//' *.csv
+```
 
 # Running processing script
 
