@@ -74,7 +74,7 @@ maximum air temperature
 Rscript unzip_process_3_airTmax.R
 ```
 
-preciptitation
+precipitation
 ```
 Rscript unzip_process_4_SRA.R
 ```
