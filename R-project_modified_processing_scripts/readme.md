@@ -5,13 +5,21 @@ In my case the scripts etc. were located in
 /media/juhele/data_2TB/_CRAN/ 
 
 so you will need to modify the scripst in order to fit your setup.
-Running the scripts is easy - just run terminal from the folder and put there command for aproppriate script:
+Running the scripts is easy - just run terminal from the folder and put there command for aproppriate script to process downloaded data:
+
+mean air temperature
 
 Rscript unzip_process_1_airTmean.R
 
+minimum air temperature
+
 Rscript unzip_process_2_airTmin.R
 
+maximum air temperature
+
 Rscript unzip_process_3_airTmax.R
+
+preciptitation
 
 Rscript unzip_process_4_SRA.R
 
