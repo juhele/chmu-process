@@ -17,6 +17,31 @@ Downloading script:
 ```
 Rscript downloading_script_v2.R
 ```
+# Fixing the data encoding in linux
+
+The downloading script gives you plenty of ZIP files with CSV inside. These CSV files have CP1250 encoding so the processing script fails as there is no encoding explicitly defined in the scripts so default system is used and linux expects UTF-8.
+
+My clumsy solution was to extract all the CSV files in one folder and then use this code
+```
+#!/bin/bash
+#enter input encoding here
+FROM_ENCODING="CP1250"
+#output encoding(UTF-8)
+TO_ENCODING="UTF-8"
+#convert
+CONVERT=" iconv  -f   $FROM_ENCODING  -t   $TO_ENCODING"
+#loop to convert multiple files 
+for  file  in  *.csv; do
+     $CONVERT   "$file"   -o  "${file%.csv}.utf8.csv"
+done
+exit 0
+```
+in a file called "encoding.sh", placed in the folder with CSV files and running it from terminal:
+
+```
+sh encoding.sh
+```
+
 
 # Running processing script
 
@@ -42,4 +67,3 @@ preciptitation
 Rscript unzip_process_4_SRA.R
 ```
 
-Remark: this does not solve the encoding problem - the downloaded files are in CP1250 but there is no encoding explicitly defined in the scripts so default system is used and linux expects UTF-8 - so the processing fails.
