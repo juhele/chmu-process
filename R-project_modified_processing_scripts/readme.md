@@ -1,10 +1,15 @@
-These are modified R-project processing scripts. Originals made by Matěj Man, modified by me.
+# Intro
+
+These are modified R-project processing scripts and downloading script. Originals made by Matěj Man, modified by me.
 
 In my case the scripts etc. were located in 
 
 /media/juhele/data_2TB/_CRAN/ 
 
 so you will need to modify the scripst in order to fit your setup.
+
+# Running the scripts
+
 Running the scripts is easy - just run terminal from the folder and put there command for aproppriate script to process downloaded data:
 
 mean air temperature
