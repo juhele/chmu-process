@@ -8,7 +8,7 @@ In my case the scripts etc. were located in
 
 so you will need to modify the scripst in order to fit your setup.
 
-# Running the scripts
+# Running download script
 
 Running the scripts is easy - just run terminal from the folder and put there command for aproppriate script.
 1) to download the data:
@@ -17,6 +17,8 @@ Downloading script:
 ```
 Rscript downloading_script_v2.R
 ```
+
+# Running processing script
 
 2) to process downloaded data:
 
