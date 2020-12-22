@@ -1,3 +1,12 @@
+## Introduction
+
+This repository was forked from:
+https://github.com/manmatej/chmu-process
+
+in order to adjust it for use in GNU/Linux and add scripts for processing other needed parameters like minimum and maximum temperature and preciptitation.
+With my almost zero experience with R-Project some of the changes and suggested procedures might look clumsy but it worked and there was no reason for deep studies of R-Project for this one time use.  
+
+
 ## Series of scripts to handle CHMU data
 
 ### Poloha stanic merge
