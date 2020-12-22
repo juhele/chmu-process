@@ -54,7 +54,7 @@ rename 's/.utf8//' *.csv
 ```
 to remove the  ".utf8" from the file names. Not sure if this is necessary for the processing script but I wanted to keep the same names to be sure.
 
-# The processing script expects ZIP file(s)
+# The processing script expects ZIP file(s) in input folder
 
 Instead of trying to edit the script I rather packed all the UTF-8 CSV files in a ZIP file in the "input" folder.
 I was worried that the script required having each CSV in its own ZIP archive, but fortunately putting all the CSVs into one ZIP archive like:
