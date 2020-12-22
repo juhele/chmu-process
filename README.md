@@ -8,6 +8,11 @@ With my almost zero experience with R-Project some of the changes and suggested 
 
 Scripts with my modifications are available in the "R-project_modified_processing_scripts" folder, with further description. Modified downloading script is also there.
 
+## Important changes
+
+Workaround to use the scripts in GNU/linux. Added scripts for min, max temperature and precipitation. Added howto.
+
+
 original description by Matěj Man:
 
 ## Series of scripts to handle CHMU data
