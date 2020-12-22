@@ -27,5 +27,5 @@ There are a lot of missing data, individual station vary in logging period. Y ax
 
 ![image of missing data](airTmean2.jpg)
 
-### Various staion location in time
+### Various station location in time
 In scripts I ignored variabe position of measuring point in time. Inside CSV files, there are aditional metadata like precise coordinates of measuring device in time. My scripts ignores it and simply merge all data by station ID ignorig spatial shift. 
