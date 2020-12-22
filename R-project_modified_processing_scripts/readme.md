@@ -10,7 +10,15 @@ so you will need to modify the scripst in order to fit your setup.
 
 # Running the scripts
 
-Running the scripts is easy - just run terminal from the folder and put there command for aproppriate script to process downloaded data:
+Running the scripts is easy - just run terminal from the folder and put there command for aproppriate script.
+1) to download the data:
+
+Downloading script:
+```
+Rscript downloading_script_v2.R
+```
+
+2) to process downloaded data:
 
 mean air temperature
 ```
