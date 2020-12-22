@@ -21,7 +21,7 @@ Rscript downloading_script_v2.R
 
 The downloading script gives you plenty of ZIP files with CSV inside. These CSV files have CP1250 encoding so the processing script fails as there is no encoding explicitly defined in the scripts so default system is used and linux expects UTF-8.
 
-My clumsy solution was to extract all the CSV files in one folder and then use this code
+My clumsy solution was to extract all the CSV files in one folder and then use this code (requires "iconv" package installed):
 ```
 #!/bin/bash
 #enter input encoding here
