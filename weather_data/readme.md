@@ -39,11 +39,13 @@ Lenka Crhová, Slávek Podzimek, 2017-06-07  07:01 UTC
 
 http://www.infomet.cz/index.php?id=read&idd=1496819280
 
+Normálové hodnoty byly tedy počítány pro jednotlivé meteo stanice, jako průměry pro období 1961-1990 a 1981-2010, v tabulkovém procesoru LibreOffice Calc, s využitím funkce "AVERAGEIF" aby bylo možné vyloučit z výpočtu hodnoty "NA" či "-999".
 
-1961-1990
-1981-2010
+V datasetu jde o sloupce obsahující "N", rok konce období normálu a číslo měsíce:
 
+pro 1961-1990 např. N1990_12	
 
+pro 1981-2010 např. N2010_01
 
 Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemůže autor po formální stránce garantovat jejich bezchybnost a jejich další použití je tedy na vlastní riziko.
 
