@@ -57,6 +57,8 @@ Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemů�
 
 Autorem skriptu pro získání dat polohy stanic je Oto Kaláb: https://github.com/kalab-oto/chmu-poloha-stanic a data samotná byla beze změn převzata z https://github.com/manmatej/chmu-process. 
 
+Data jsou ve standardním formátu OGC GeoPackage (https://www.geopackage.org) a souřadnicovém systému EPSG:32633 - WGS 84 / UTM zone 33N (https://epsg.io/32633). Atributová tabulka nicméně obsahuje i původní souřadnice v systému EPSG:4326 - WGS 84 (https://epsg.io/4326) (GPS souřadnice)
+
 
 ### Odvozené měsíční srážkové úhrny (GIS data) - v přípravě)
 
