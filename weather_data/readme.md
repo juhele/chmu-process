@@ -47,6 +47,8 @@ pro 1961-1990 např. N1990_12
 
 pro 1981-2010 např. N2010_01
 
+Pokud má normálová hodnota velikost -999, pak pro dané období a stanici nebyla data srážek k dispozici.
+
 Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemůže autor po formální stránce garantovat jejich bezchybnost a jejich další použití je tedy na vlastní riziko.
 
 ## GIS data
