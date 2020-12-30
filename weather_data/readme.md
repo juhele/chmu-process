@@ -55,7 +55,7 @@ Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemů�
 
 ## GIS data
 
-v přípravě...
+Autorem skriptu pro získání dat polohy stanic je Oto Kaláb: https://github.com/kalab-oto/chmu-poloha-stanic a data samotná byla beze změn převzata z https://github.com/manmatej/chmu-process. 
 
 
 ### Odvozené měsíční srážkové úhrny (GIS data) - v přípravě)
