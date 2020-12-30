@@ -32,8 +32,11 @@ S ohledem na problémy při snaze svépomocí upravit skripty pro R-project ke s
 
 Pro případný výpočet obdobného typu dat jako jsou "Územní srážky" byly vypočteny tzv. normálové hodnoty - "Standardní klimatické normály dle WMO jsou počítány jako 30leté průměry teploty, srážek a dalších klimatických prvků."
 viz:
+
 PŘECHOD NA KLIMATICKÝ NORMÁL 1981 – 2010
+
 Lenka Crhová, Slávek Podzimek, 2017-06-07  07:01 UTC
+
 http://www.infomet.cz/index.php?id=read&idd=1496819280
 
 
