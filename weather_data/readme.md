@@ -77,7 +77,11 @@ Kvůli zatím nedořešené automatizaci procesu byla provedena pouze interpolac
 
 #### Odvozené územní měsíční normálové srážkové úhrny (GIS data)(v přípravě)
 
+Data jsou ve formě vektorové polygonové vrstvy, opět standardním formátu OGC GeoPackage (https://www.geopackage.org) a souřadnicovém systému EPSG:32633 - WGS 84 / UTM zone 33N (https://epsg.io/32633). 
+
 ![Odvozené územní normálové srážky](img/QGIS_uzemni_normalove_srazky.jpg)
+
+Atributová tabulka obsahuje územní normálové hodnoty měsíčních srážek - tj. průměry pro období 1961-1990 a 1981-2010 pro jednotlivé kraje ČR.
 
 
 ### Reference:
