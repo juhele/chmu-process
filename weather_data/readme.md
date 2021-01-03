@@ -69,6 +69,9 @@ Výše uvedená data odvozených měsíční srážkový úhrnů byla interpolov
 
 ![zdrojová data pro interpolaci](img/SAGA-GIS_interpolace1_body.jpg)
 
+![Ukázka výstupu interpolace](img/SAGA-GIS_interpolace2_spline.jpg)
+
+
 
 ### Reference:
 
