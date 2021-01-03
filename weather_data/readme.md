@@ -84,7 +84,7 @@ Data jsou ve formě vektorové polygonové vrstvy, opět standardním formátu O
 
 ![Odvozené územní normálové srážky](img/QGIS_uzemni_normalove_srazky.jpg)
 
-Atributová tabulka obsahuje územní normálové hodnoty měsíčních srážek - tj. průměry pro období 1961-1990 a 1981-2010 pro jednotlivé kraje ČR.
+Atributová tabulka obsahuje územní normálové hodnoty měsíčních srážek - tj. průměry pro období 1961-1990 a 1981-2010 pro jednotlivé kraje ČR. Vektorová vrstva hranic krajů pochází z Registru územní identifikace, adres a nemovitostí (RÚIAN), která poskytuje Český úřad zeměměřický a katastrální (dále jen „ČÚZK“) pod licencí [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.cs).
 
 
 ### Reference:
