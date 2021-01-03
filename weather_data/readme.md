@@ -65,7 +65,7 @@ Data jsou ve standardním formátu OGC GeoPackage (https://www.geopackage.org) a
 
 Cílem bylo získat z dat uvolněných ČHMÚ obdobná data jako jsou uváděné [Územní srážky](https://www.chmi.cz/historicka-data/pocasi/uzemni-srazky), která jsou ovšem publikována pod licencí [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/3.0/cz/), která brání jejich dalšímu zpracování: "Nezasahujte do díla — Pokud dílo zpracujete, zpracujete s jinými díly, doplníte nebo jinak změníte, nesmíte toto upravené dílo dále šířit."
 
-Výše uvedená data odvozených měsíční srážkový úhrnů byla interpolována v programu SAGA-GIS (http://www.saga-gis.org) s využitím metody Multilevel B-Spline, cellsize 100 m. Interpolační algoritmus pracuje v obdélníkové oblasti, ale pro potřeby budoucího ořezu dat byla tato oblast nastavena větší, podle hranic ČR s 10 km přesahem (buffer).
+Výše uvedená data odvozených měsíční srážkový úhrnů byla interpolována v programu SAGA-GIS (http://www.saga-gis.org) s využitím metody Multilevel B-Spline, cellsize 100 m. Interpolační algoritmus pracuje v obdélníkové oblasti, ale pro potřeby budoucího ořezu dat byla tato oblast nastavena větší, podle hranic ČR s 10 km přesahem (buffer). Program byl nastaven tak, aby do interpolace nebyly zahrnuty body stanic, které v dané období neměly k dispozici žádná data (ve výše zmíněném datasetu hodnoty -999).
 
 ![zdrojová data pro interpolaci](img/SAGA-GIS_interpolace1_body.jpg)
 
