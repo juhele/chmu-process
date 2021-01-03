@@ -63,9 +63,10 @@ Data jsou ve standardním formátu OGC GeoPackage (https://www.geopackage.org) a
 
 ### Odvozené měsíční normálové srážkové úhrny (GIS data)(v přípravě)
 
-Výše uvedená data odvozených měsíční srážkový úhrnů byla interpolována v programu SAGA-GIS (http://www.saga-gis.org) s využitím metody Multilevel B-Spline:
+Výše uvedená data odvozených měsíční srážkový úhrnů byla interpolována v programu SAGA-GIS (http://www.saga-gis.org) s využitím metody Multilevel B-Spline, cellsize 100 m.
 
-Reference:
+
+### Reference:
 
 [SAGA-GIS Tool Library Documentation (v7.3.0) - Tool Multilevel B-Spline](http://www.saga-gis.org/saga_tool_doc/7.3.0/grid_spline_4.html)
 
