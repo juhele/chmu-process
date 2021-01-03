@@ -85,3 +85,5 @@ Kvůli zatím nedořešené automatizaci procesu byla provedena pouze interpolac
 [SAGA-GIS Tool Library Documentation (v7.3.0) - Tool Multilevel B-Spline](http://www.saga-gis.org/saga_tool_doc/7.3.0/grid_spline_4.html)
 
 Lee, S., Wolberg, G., Shin, S.Y. (1997): Scattered Data Interpolation with Multilevel B-Splines. IEEE Transactions On Visualisation And Computer Graphics, Vol.3, No.3., p.228-244. [available from ResearchGate](https://www.researchgate.net/profile/George_Wolberg/publication/3410822_Scattered_Data_Interpolation_with_Multilevel_B-Splines/links/00b49518719ac9f08a000000/Scattered-Data-Interpolation-with-Multilevel-B-Splines.pdf).
+
+[SAGA-GIS Tool Library Documentation (v7.3.0) - Tool Grid Statistics for Polygons](http://www.saga-gis.org/saga_tool_doc/7.3.0/shapes_grid_2.html)
