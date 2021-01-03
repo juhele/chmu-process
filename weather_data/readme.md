@@ -61,7 +61,7 @@ Autorem skriptu pro získání dat polohy stanic je Oto Kaláb: https://github.c
 
 Data jsou ve standardním formátu OGC GeoPackage (https://www.geopackage.org) a souřadnicovém systému EPSG:32633 - WGS 84 / UTM zone 33N (https://epsg.io/32633). Atributová tabulka nicméně obsahuje i původní souřadnice v systému EPSG:4326 - WGS 84 (https://epsg.io/4326) (GPS souřadnice). Jako ukázka je ve výchozím stavu použit přechodový styl s odstupňováním barev podle měsíce listopadu 2019.
 
-### Odvozené měsíční normálové srážkové úhrny (GIS data)(v přípravě)
+### Odvozené územní měsíční normálové srážkové úhrny (GIS data)(v přípravě)
 
 Výše uvedená data odvozených měsíční srážkový úhrnů byla interpolována v programu SAGA-GIS (http://www.saga-gis.org) s využitím metody Multilevel B-Spline, cellsize 100 m.
 
