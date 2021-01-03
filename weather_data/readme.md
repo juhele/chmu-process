@@ -78,7 +78,7 @@ Výstupem je tedy obdélníková interpolovaná mapa, která po ořezu může vy
 Kvůli zatím nedořešené automatizaci procesu byla provedena pouze interpolace manuálně spuštěná přes SAGA_GUI pro vybraná data a normálnové hodnoty.
 Výpočet hodnot pro jednotlivé polygony z interpolovaných dat byl proveden opět v SAGA-GIS modulem Grid Statistics for Polygons. S ohledem na velkou náročnost na výkon bylo po počátečních testech upuštěno od varianty výpočtu "polygon wise (cell area weighted)" a byla použita jednodušší "simple and fast". Výsledek byl zaokrouhlen na celá čísla, stejně jako data územních srážek prezentovaná na webu ČHMÚ.
 
-#### Odvozené územní měsíční normálové srážkové úhrny (GIS data)(v přípravě)
+#### Odvozené územní měsíční normálové srážkové úhrny (GIS data)
 
 Data jsou ve formě vektorové polygonové vrstvy, opět standardním formátu OGC GeoPackage (https://www.geopackage.org) a souřadnicovém systému EPSG:32633 - WGS 84 / UTM zone 33N (https://epsg.io/32633). 
 
