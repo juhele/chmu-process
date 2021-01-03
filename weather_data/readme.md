@@ -67,6 +67,8 @@ Cílem bylo získat z dat uvolněných ČHMÚ obdobná data jako jsou uváděné
 
 Výše uvedená data odvozených měsíční srážkový úhrnů byla interpolována v programu SAGA-GIS (http://www.saga-gis.org) s využitím metody Multilevel B-Spline, cellsize 100 m. Interpolační algoritmus pracuje v obdélníkové oblasti, ale pro potřeby budoucího ořezu dat byla tato oblast nastavena větší, podle hranic ČR s 10 km přesahem (buffer). Program byl nastaven tak, aby do interpolace nebyly zahrnuty body stanic, které v dané období neměly k dispozici žádná data (ve výše zmíněném datasetu hodnoty -999).
 
+GIS data administrativního členění ČR byla převzata z Registru územní identifikace, adres a nemovitostí (RÚIAN), která poskytuje Český úřad zeměměřický a katastrální (dále jen „ČÚZK“) pod licencí [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.cs).
+
 ![zdrojová data pro interpolaci](img/SAGA-GIS_interpolace1_body.jpg)
 
 Výstupem je tedy obdélníková interpolovaná mapa, která po ořezu může vypadat asi takto:
