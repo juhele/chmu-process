@@ -61,7 +61,7 @@ Autorem skriptu pro získání dat polohy stanic je Oto Kaláb: https://github.c
 
 Data jsou ve standardním formátu OGC GeoPackage (https://www.geopackage.org) a souřadnicovém systému EPSG:32633 - WGS 84 / UTM zone 33N (https://epsg.io/32633). Atributová tabulka nicméně obsahuje i původní souřadnice v systému EPSG:4326 - WGS 84 (https://epsg.io/4326) (GPS souřadnice). Jako ukázka je ve výchozím stavu použit přechodový styl s odstupňováním barev podle měsíce listopadu 2019.
 
-### Odvozené územní měsíční normálové srážkové úhrny (GIS data)(v přípravě)
+### Odvozená územní měsíční srážková data (GIS data)
 
 Cílem bylo získat z dat uvolněných ČHMÚ obdobná data jako jsou uváděné [Územní srážky](https://www.chmi.cz/historicka-data/pocasi/uzemni-srazky), která jsou ovšem publikována pod licencí [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/3.0/cz/), která brání jejich dalšímu zpracování: "Nezasahujte do díla — Pokud dílo zpracujete, zpracujete s jinými díly, doplníte nebo jinak změníte, nesmíte toto upravené dílo dále šířit."
 
@@ -75,6 +75,7 @@ Výstupem je tedy obdélníková interpolovaná mapa, která po ořezu může vy
 
 Kvůli zatím nedořešené automatizaci procesu byla provedena pouze interpolace manuálně spuštěná přes SAGA_GUI pro vybraná data a normálnové hodnoty.
 
+#### Odvozené územní měsíční normálové srážkové úhrny (GIS data)(v přípravě)
 
 ### Reference:
 
