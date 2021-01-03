@@ -69,8 +69,11 @@ Výše uvedená data odvozených měsíční srážkový úhrnů byla interpolov
 
 ![zdrojová data pro interpolaci](img/SAGA-GIS_interpolace1_body.jpg)
 
+Výstupem je tedy obdélníková interpolovaná mapa, která po ořezu může vypadat asi takto:
+
 ![Ukázka výstupu interpolace](img/SAGA-GIS_interpolace2_spline.jpg)
 
+Kvůli zatím nedořešené automatizaci procesu byla provedena pouze interpolace manuálně spuštěná přes SAGA_GUI pro vybraná data a normálnové hodnoty.
 
 
 ### Reference:
