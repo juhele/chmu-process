@@ -77,6 +77,9 @@ Kvůli zatím nedořešené automatizaci procesu byla provedena pouze interpolac
 
 #### Odvozené územní měsíční normálové srážkové úhrny (GIS data)(v přípravě)
 
+![Odvozené územní normálové srážky](img/QGIS_uzemni_normalove_srazky.jpg)
+
+
 ### Reference:
 
 [SAGA-GIS Tool Library Documentation (v7.3.0) - Tool Multilevel B-Spline](http://www.saga-gis.org/saga_tool_doc/7.3.0/grid_spline_4.html)
