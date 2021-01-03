@@ -61,6 +61,8 @@ Autorem skriptu pro získání dat polohy stanic je Oto Kaláb: https://github.c
 
 Data jsou ve standardním formátu OGC GeoPackage (https://www.geopackage.org) a souřadnicovém systému EPSG:32633 - WGS 84 / UTM zone 33N (https://epsg.io/32633). Atributová tabulka nicméně obsahuje i původní souřadnice v systému EPSG:4326 - WGS 84 (https://epsg.io/4326) (GPS souřadnice). Jako ukázka je ve výchozím stavu použit přechodový styl s odstupňováním barev podle měsíce listopadu 2019.
 
+### Odvozené měsíční normálové srážkové úhrny (GIS data)(v přípravě)
 
+Výše uvedená data odvozených měsíční srážkový úhrnů byla interpolována v programu SAGA-GIS (http://www.saga-gis.org) s využitím metody Multilevel B-Spline (
 
-
+Lee, S., Wolberg, G., Shin, S.Y. (1997): Scattered Data Interpolation with Multilevel B-Splines. IEEE Transactions On Visualisation And Computer Graphics, Vol.3, No.3., p.228-244. available from ResearchGate.(https://www.researchgate.net/profile/George_Wolberg/publication/3410822_Scattered_Data_Interpolation_with_Multilevel_B-Splines/links/00b49518719ac9f08a000000/Scattered-Data-Interpolation-with-Multilevel-B-Splines.pdf)
