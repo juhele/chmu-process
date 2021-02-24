@@ -5,7 +5,7 @@
 
 ## Úvod
 
-K dispozici jsou data denních teplot vzduchu (minimální, průměrné, maximální) a denních srážkových úhrnnů za období 1961-2019, která zpřístupnil Český hydrometeorologický ústav (dále jen „ČHMÚ“) v souladu se zákonem 123/1998 Sb. o právu na informace o životním prostředí:
+K dispozici jsou data denních teplot vzduchu (minimální, průměrné, maximální) a denních srážkových úhrnů za období 1961-2019, která zpřístupnil Český hydrometeorologický ústav (dále jen „ČHMÚ“) v souladu se zákonem 123/1998 Sb. o právu na informace o životním prostředí:
 
 https://www.chmi.cz/historicka-data/pocasi/denni-data/Denni-data-dle-z.-123-1998-Sb
 
@@ -53,7 +53,7 @@ Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemů�
 
 ### Odvozené měsíční průměrné denní teploty (CSV)
 
-Postup výpočtu byl obdobný jako u srážek výše, využita byla denní data "Průměrná denní teplota vzduchu" uvolněná ČHMÚ. Hodnota pro NoData byla změněna na "-99999", což je hodnota jakou SAGA-GIS bere defaultně jako NoData, aniž by bylo potřeba cokoliv nastavovat. To se hodí především pro dávkové zpracování dat s pomocí skriptů. Postupně je v úmyslu takto zpětně opravit i předchozí datasety...
+Postup výpočtu byl obdobný jako u srážek výše, využita byla denní data "Průměrná denní teplota vzduchu" uvolněná ČHMÚ. Hodnota pro NoData byla změněna na "-99999", což je hodnota jakou SAGA-GIS bere defaultně jako NoData, aniž by bylo potřeba cokoliv nastavovat. To se hodí především pro dávkové zpracování dat s pomocí skriptů. Postupně je v plánu takto zpětně opravit i předchozí datasety...
 
 Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemůže autor po formální stránce garantovat jejich bezchybnost a jejich další použití je tedy na vlastní riziko.
 
