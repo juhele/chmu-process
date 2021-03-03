@@ -94,6 +94,15 @@ Data jsou ve formě vektorové polygonové vrstvy, opět standardním formátu O
 
 Atributová tabulka obsahuje územní normálové hodnoty měsíčních srážek - tj. průměry pro období 1961-1990 a 1981-2010 pro jednotlivé kraje ČR. Vektorová vrstva hranic krajů pochází z Registru územní identifikace, adres a nemovitostí (RÚIAN), která poskytuje Český úřad zeměměřický a katastrální (dále jen „ČÚZK“) pod licencí [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.cs).
 
+#### Odvozené územní měsíční teploty vzduchu
+
+Data jsou ve formě CSV a Excel tabulky (.XLSX), protože v tomto případě napojení na GIS data nedávalo příliš smysl.
+
+Tabulka obsahuje územní hodnoty odvozených měsíčních teplot vzduchu - tj. průměry pro období 1961-1990 a 1981-2010 pro oblast ČR. Vypočteny byly hodnoty pro minimum, maximum a průměr - tj. vždy 3 hodnoty pro daný měsíc a oblast celé ČR. Obdobně jako v datech "Územní teploty" byla i zde vypočítaná odchylka od normálu (hodnoty "mean") a to jak pro normál 1961-1990 (sloupce obsahující N1990) tak i pro 1981-2010 (sloupce s N2010).
+
+Pro výpočet byla využita interpolovaná data z předchozích kroků, výpočet byl proveden v SAGA GIS modulem "Grid Statistics for Polygons". Při zpracování byla využita vektorová vrstva hranic ČR z Registru územní identifikace, adres a nemovitostí (RÚIAN), která poskytuje Český úřad zeměměřický a katastrální (dále jen „ČÚZK“) pod licencí [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.cs).
+
+Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemůže autor po formální stránce garantovat jejich bezchybnost a jejich další použití je tedy na vlastní riziko.
 
 ### Reference:
 
