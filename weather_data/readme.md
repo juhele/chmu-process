@@ -98,7 +98,7 @@ Atributová tabulka obsahuje územní normálové hodnoty měsíčních srážek
 
 Data pro oblast celé ČR jsou pouze ve formě CSV a Excel tabulky (.XLSX), protože v tomto případě napojení na GIS data nedávalo příliš smysl. Ostatní datové sady již obsahují i GIS vrstvu.
 
-S ohledem na rozsáhlost dat bylo jak při zpracování, tak následně i pro hotové vrstvy přistoupeno k rozdělení na několik menších částí. První - kraje za období 1961-1970 je již k dispozici a obsahuje i hodnoty odchylek vůči oběma normálům. Na obrázku níže jsou na ukázku zobrazeny hodnoty pro červen 1967:
+S ohledem na rozsáhlost dat bylo jak při zpracování, tak následně i pro hotové vrstvy přistoupeno k rozdělení na několik menších částí (kromě dat pro celou ČR). První - kraje za období 1961-1970 je již k dispozici a obsahuje i hodnoty odchylek vůči oběma normálům. Na obrázku níže jsou na ukázku zobrazeny hodnoty pro červen 1967:
 
 ![Odvozené územní srážky - ukázka pro červen 1967](img/CHMU_teploty_1967_06_QGIS.jpg)
 
