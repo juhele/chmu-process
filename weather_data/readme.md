@@ -105,7 +105,7 @@ Tabulka obsahuje územní hodnoty odvozených měsíčních teplot vzduchu - tj.
 ##### Kraje ČR
 
 S ohledem na rozsáhlost dat bylo jak při zpracování, tak následně i pro hotové vrstvy přistoupeno k rozdělení na několik menších částí (kromě dat pro celou ČR). 
-K dispozici jsou data pro kraje a období 1961-1970, 1971-1980, 1981-1990 a obsahují i hodnoty odchylek vůči oběma normálům. 
+K dispozici jsou data pro kraje a období 1961-1970, 1971-1980, 1981-1990, 1991-2000 a obsahují i hodnoty odchylek vůči oběma normálům. 
 Na obrázku níže jsou na ukázku zobrazeny hodnoty pro červen 1967:
 
 ![Odvozené územní srážky - ukázka pro červen 1967](img/CHMU_teploty_1967_06_QGIS.jpg)
