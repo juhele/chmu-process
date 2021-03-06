@@ -98,13 +98,17 @@ Atributová tabulka obsahuje územní normálové hodnoty měsíčních srážek
 
 Data pro oblast celé ČR jsou pouze ve formě CSV a Excel tabulky (.XLSX), protože v tomto případě napojení na GIS data nedávalo příliš smysl. Ostatní datové sady již obsahují i GIS vrstvu.
 
-S ohledem na rozsáhlost dat bylo jak při zpracování, tak následně i pro hotové vrstvy přistoupeno k rozdělení na několik menších částí (kromě dat pro celou ČR). První - kraje za období 1961-1970 a 1971-1980 jsou již k dispozici a obsahují i hodnoty odchylek vůči oběma normálům. Na obrázku níže jsou na ukázku zobrazeny hodnoty pro červen 1967:
-
-![Odvozené územní srážky - ukázka pro červen 1967](img/CHMU_teploty_1967_06_QGIS.jpg)
-
 ##### Oblast celé ČR
 
 Tabulka obsahuje územní hodnoty odvozených měsíčních teplot vzduchu - tj. průměry pro období 1961-1990 a 1981-2010 pro oblast ČR. Vypočteny byly hodnoty pro minimum, maximum a průměr - tj. vždy 3 hodnoty pro daný měsíc a oblast celé ČR. Obdobně jako v datech "Územní teploty" byla i zde vypočítaná odchylka od normálu (hodnoty "mean") a to jak pro normál 1961-1990 (sloupce obsahující N1990) tak i pro 1981-2010 (sloupce s N2010).
+
+##### Kraje ČR
+
+S ohledem na rozsáhlost dat bylo jak při zpracování, tak následně i pro hotové vrstvy přistoupeno k rozdělení na několik menších částí (kromě dat pro celou ČR). 
+K dispozici jsou data pro kraje a období 1961-1970, 1971-1980, 1981-1990 a obsahují i hodnoty odchylek vůči oběma normálům. 
+Na obrázku níže jsou na ukázku zobrazeny hodnoty pro červen 1967:
+
+![Odvozené územní srážky - ukázka pro červen 1967](img/CHMU_teploty_1967_06_QGIS.jpg)
 
 Pro výpočet byla využita interpolovaná data z předchozích kroků, výpočet byl proveden v SAGA GIS modulem "Grid Statistics for Polygons". Při zpracování byla využita vektorová vrstva hranic ČR z Registru územní identifikace, adres a nemovitostí (RÚIAN), která poskytuje Český úřad zeměměřický a katastrální (dále jen „ČÚZK“) pod licencí [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.cs).
 
