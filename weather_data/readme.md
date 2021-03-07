@@ -98,11 +98,13 @@ Atributová tabulka obsahuje územní normálové hodnoty měsíčních srážek
 
 Data pro oblast celé ČR jsou pouze ve formě CSV a Excel tabulky (.XLSX), protože v tomto případě napojení na GIS data nedávalo příliš smysl. Ostatní datové sady již obsahují i GIS vrstvu.
 
-https://github.com/juhele/chmu-process/blob/master/weather_data/CHMU_10_odvozena_data_uzemni_teploty_adm0_CZ.tar.gz
-
 ##### Oblast celé ČR
 
 Tabulka obsahuje územní hodnoty odvozených měsíčních teplot vzduchu - tj. průměry pro období 1961-1990 a 1981-2010 pro oblast ČR. Vypočteny byly hodnoty pro minimum, maximum a průměr - tj. vždy 3 hodnoty pro daný měsíc a oblast celé ČR. Obdobně jako v datech "Územní teploty" byla i zde vypočítaná odchylka od normálu (hodnoty "mean") a to jak pro normál 1961-1990 (sloupce obsahující N1990) tak i pro 1981-2010 (sloupce s N2010).
+
+Soubor ke stažení:
+
+[CHMU_10_odvozena_data_uzemni_teploty_adm0_CZ.tar.gz](https://github.com/juhele/chmu-process/blob/master/weather_data/CHMU_10_odvozena_data_uzemni_teploty_adm0_CZ.tar.gz)
 
 ##### Kraje ČR
 
