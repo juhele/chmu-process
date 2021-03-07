@@ -102,6 +102,8 @@ Data pro oblast celé ČR jsou pouze ve formě CSV a Excel tabulky (.XLSX), prot
 
 Tabulka obsahuje územní hodnoty odvozených měsíčních teplot vzduchu - tj. průměry pro období 1961-1990 a 1981-2010 pro oblast ČR. Vypočteny byly hodnoty pro minimum, maximum a průměr - tj. vždy 3 hodnoty pro daný měsíc a oblast celé ČR. Obdobně jako v datech "Územní teploty" byla i zde vypočítaná odchylka od normálu (hodnoty "mean") a to jak pro normál 1961-1990 (sloupce obsahující N1990) tak i pro 1981-2010 (sloupce s N2010).
 
+Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemůže autor po formální stránce garantovat jejich bezchybnost a jejich další použití je tedy na vlastní riziko.
+
 Soubor ke stažení:
 
 [CHMU_10_odvozena_data_uzemni_teploty_adm0_CZ.tar.gz](https://github.com/juhele/chmu-process/blob/master/weather_data/CHMU_10_odvozena_data_uzemni_teploty_adm0_CZ.tar.gz)
@@ -117,6 +119,17 @@ Na obrázku níže jsou na ukázku zobrazeny hodnoty pro červen 1967:
 Pro výpočet byla využita interpolovaná data z předchozích kroků, výpočet byl proveden v SAGA GIS modulem "Grid Statistics for Polygons". Při zpracování byla využita vektorová vrstva hranic ČR z Registru územní identifikace, adres a nemovitostí (RÚIAN), která poskytuje Český úřad zeměměřický a katastrální (dále jen „ČÚZK“) pod licencí [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.cs).
 
 Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemůže autor po formální stránce garantovat jejich bezchybnost a jejich další použití je tedy na vlastní riziko.
+
+Soubory ke stažení:
+
+[CHMU_11_odvozena_data_uzemni_teploty_1961_1970_adm1_kraje.tar.gz](https://github.com/juhele/chmu-process/blob/master/weather_data/CHMU_11_odvozena_data_uzemni_teploty_1961_1970_adm1_kraje.tar.gz)
+
+[CHMU_12_odvozena_data_uzemni_teploty_1971_1980_adm1_kraje.tar.gz](https://github.com/juhele/chmu-process/blob/master/weather_data/CHMU_12_odvozena_data_uzemni_teploty_1971_1980_adm1_kraje.tar.gz)
+
+[CHMU_13_odvozena_data_uzemni_teploty_1981_1990_adm1_kraje.tar.gz](https://github.com/juhele/chmu-process/blob/master/weather_data/CHMU_13_odvozena_data_uzemni_teploty_1981_1990_adm1_kraje.tar.gz)
+
+[CHMU_14_odvozena_data_uzemni_teploty_1991_2000_adm1_kraje.tar.gz](https://github.com/juhele/chmu-process/blob/master/weather_data/CHMU_14_odvozena_data_uzemni_teploty_1991_2000_adm1_kraje.tar.gz)
+
 
 ### Reference:
 
