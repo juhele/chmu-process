@@ -132,6 +132,7 @@ Soubory ke stažení:
 
 [CHMU_15_odvozena_data_uzemni_teploty_2001_2010_adm1_kraje.tar.gz](https://github.com/juhele/chmu-process/blob/master/weather_data/CHMU_15_odvozena_data_uzemni_teploty_2001_2010_adm1_kraje.tar.gz)
 
+[CHMU_16_odvozena_data_uzemni_teploty_2011_2019_adm1_kraje.tar.gz](https://github.com/juhele/chmu-process/blob/master/weather_data/CHMU_16_odvozena_data_uzemni_teploty_2011_2019_adm1_kraje.tar.gz)
 
 ### Reference:
 
