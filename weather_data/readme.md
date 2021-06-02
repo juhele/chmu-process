@@ -51,7 +51,7 @@ Pokud má normálová hodnota velikost -999, pak pro dané období a stanici neb
 
 Ačkoliv byla tato odvozená data průběžně namátkově kontrolována, nemůže autor po formální stránce garantovat jejich bezchybnost a jejich další použití je tedy na vlastní riziko.
 
-### Odvozené měsíční průměrné denní teploty (CSV)
+### Odvozené měsíční průměrné teploty (CSV)
 
 Postup výpočtu byl obdobný jako u srážek výše, využita byla denní data "Průměrná denní teplota vzduchu" uvolněná ČHMÚ. Hodnota pro NoData byla změněna na "-99999", což je hodnota jakou SAGA-GIS bere defaultně jako NoData, aniž by bylo potřeba cokoliv nastavovat. To se hodí především pro dávkové zpracování dat s pomocí skriptů. Postupně je v plánu takto zpětně opravit i předchozí datasety...
 
